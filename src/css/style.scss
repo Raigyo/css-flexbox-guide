@@ -1,21 +1,28 @@
 /* Code here */
 
-.container{
-  display: flex;
-  align-items: center;
+
+#tablet {
+  display: none;
 }
 
-
-.item:nth-child(2){
-  align-self: flex-end;
+#phone {
+  display: none;
 }
 
-
-.container{
-  background-color: whitesmoke;
+@media screen and (max-width: 700px){
+  #computer{
+    display: none;
+  }
+  #tablet{
+    display: block;
+  }
 }
 
-
-
-
-
+@media screen and (max-width: 400px){
+  #tablet{
+    display: none;
+  }
+  #phone{
+    display: block;
+  }
+}

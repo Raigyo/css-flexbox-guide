@@ -1,5 +1,7 @@
 
 
+
+
 # Flexbox Layout Module
 
 September 2020
@@ -401,4 +403,74 @@ Is:
 Align an item in particular on secondary axis. Have the same values than align-items.
 
 align-self > align-items.
+
+## Center elements
+
+
+
+````scss
+.container{
+  display: flex;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+````
+
+Or:
+
+````scss
+//not really aligned if there are several items because it add 2 margins between them
+
+.container{
+  display: flex;
+  height: 500px;
+}
+
+.item{
+  margin: auto;
+}
+````
+
+
+
+![exemple](_readme-img/15-exemple.PNG)
+
+## Media queries
+
+Exemple of use:
+
+````html
+<span id="computer">Computer</span>
+<span id="tablet">Tablet</span>
+<span id="phone">Phone</span>
+````
+
+````scss
+#tablet {
+  display: none;
+}
+
+#phone {
+  display: none;
+}
+
+@media screen and (max-width: 700px){
+  #computer{
+    display: none;
+  }
+  #tablet{
+    display: block;
+  }
+}
+
+@media screen and (max-width: 400px){
+  #tablet{
+    display: none;
+  }
+  #phone{
+    display: block;
+  }
+}
+````
 
