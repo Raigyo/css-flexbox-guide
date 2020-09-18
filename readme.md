@@ -254,3 +254,151 @@ Value are integers.
 ![exemple](_readme-img/11-exemple.PNG)
 
 ### flex-basis
+
+It specifies the initial size of the flex item, before **any available space is distributed according to the flex factors**. When omitted from the flex shorthand, its specified value is the length zero. it takes same values than dimensions (ex: width).
+
+**Hierarchy:** 
+
+min-width & max-width => flex-basis => width => content (inside box)
+
+**Use of leaving space:**
+
+Exemple a container of 800px. Items have 100px, but the first one has 200px as flex-basis.
+
+So we still have 500px. If we put the following values as flex-grow:
+
+
+
+````scss
+.container{
+  display: flex;
+}
+
+.item{
+  width: 100px;
+}
+
+.item:nth-child(1){
+  flex-basis: 200px;
+  flex-grow: 2;
+}
+
+.item:nth-child(2){
+  flex-grow: 1;
+}
+````
+
+It means that the first element will take 200px + 2/3 of leaving space (500); so 333,33px.
+
+The second element will take 100px +1/3 of leaving space (500);, so 166,66.
+
+533.33 px + 266.66 px = 800px.
+
+![exemple](_readme-img/12-exemple.PNG)
+
+If we add padding etc, it will leave less space after items.  So it will impact the calculation of flex-grow.
+
+### flex-shrink
+
+It specifies the “flex shrink factor”, which determines how much the flex item will shrink relative to the rest of the flex items in the flex container when **there isn’t enough space on the row**.
+
+Value by default: 1. 
+
+0 is the original size of the elements.
+
+**Use of negative space available:**
+
+Exemple if we have **3 items** of 400px + 20px as border for the container.
+
+There are bigger than our container of 800px, because there are 'too many content to put in a little box'...
+
+Total space needed is 1220px and we have 800px asd container, so 420px are missing (negative space), 140px by element.
+
+So it means that each element should make 400-140= 260px
+
+````scss
+.container{
+  width: 800px;
+  display: flex;
+  border: 10px solid red;
+}
+
+.item{
+  flex-basis: 400px;
+  flex-shrink: 1;
+}
+````
+
+
+
+![exemple](_readme-img/13-exemple.PNG)
+
+With a different flex-shrink:
+
+420px are missing (negative space).
+
+There are '4 shrinks' as total.
+
+````scss
+.container{
+  width: 800px;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  border: 10px solid red;
+}
+
+.item{
+  flex-basis: 400px;
+  flex-shrink: 1;
+}
+
+.item:nth-child(1){
+  flex-shrink: 2;
+}
+````
+
+Item 1: 420 * 2/4 = 210 px (negative space available).
+
+Space needed for item 1: 400 - 210 = 190 px.
+
+
+
+![exemple](_readme-img/14-exemple.PNG)
+
+### flex
+
+flex-grow / flex-shrink / flex-basis
+
+Default value: flex: 0 1 auto.
+
+````scss
+.container{
+  display: flex;
+}
+
+.item{
+  flex: 0 1 20%;
+}
+````
+
+Is:
+
+````scss
+.container{
+  display: flex;
+}
+
+.item{
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: 20%;    
+}
+````
+
+### align-self
+
+Align an item in particular on secondary axis. Have the same values than align-items.
+
+align-self > align-items.
+

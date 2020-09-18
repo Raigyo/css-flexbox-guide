@@ -2,17 +2,20 @@
 
 .container{
   display: flex;
+  align-items: center;
 }
+
+
+.item:nth-child(2){
+  align-self: flex-end;
+}
+
 
 .container{
   background-color: whitesmoke;
 }
 
-.item:nth-child(1){
-  flex-grow: 1;
-}
 
-.item:nth-child(2){
-  flex-grow: 2;
-}
+
+
 
