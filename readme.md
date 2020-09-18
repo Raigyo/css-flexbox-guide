@@ -16,7 +16,7 @@ Before we used that kind of solutions to display elements:
 
 
 
-![Layout before](_readme-img/block-before.png)
+![Layout before](_readme-img/block-before.PNG)
 
 
 
@@ -78,15 +78,15 @@ If you don't use css postprocessor, you maybe will have to add prefixes with som
 }
 ````
 
-![exemple](_readme-img/01-exemple.png)
+![exemple](_readme-img/01-exemple.PNG)
 
 `flex-direction: row-reverse`, will change the distribution way.
 
-![exemple](./_readme-img/02-exemple.png)
+![exemple](./_readme-img/02-exemple.PNG)
 
 `flex-direction: column`, to change main axis to vertical axis. We can invert the way of distribution from bottom to top, using `flex-direction: column-reverse`
 
-![exemple](./_readme-img/03-exemple.png)
+![exemple](./_readme-img/03-exemple.PNG)
 
 ### display: flex / display: inline-flex
 
@@ -94,7 +94,7 @@ If you don't use css postprocessor, you maybe will have to add prefixes with som
 
 `display: inline-flex;` the container will stop after the last element. So it's possible to put elements after that bloc.
 
-![exemple](_readme-img/04-exemple.png)
+![exemple](_readme-img/04-exemple.PNG)
 
 Its also possible to reproduce that behavior using a second container:
 
@@ -128,13 +128,13 @@ Is linked to main axis `flex-direction`. The behavior will change if we change i
 
 `justify-content: flex-end;` last element will stick on the end the way of distribution..
 
-![exemple](_readme-img/05-exemple.png)
+![exemple](_readme-img/05-exemple.PNG)
 
 `justify-content: center;` center the block.
 
 `justify-content: space-around`element will divide along the container. It will add a 'one unit' space on left and right and '2 units' between items..
 
-![exemple](_readme-img/06-exemple.png)
+![exemple](_readme-img/06-exemple.PNG)
 
 `justify-content: space-evenly`: keep the same space before, after and between elements.
 
@@ -154,7 +154,7 @@ For instance, if we these settings:
 
 Flex-end is not on the right but on the left. 
 
-![exemple](_readme-img/07-exemple.png)
+![exemple](_readme-img/07-exemple.PNG)
 
 ### flex-wrap
 
@@ -170,11 +170,11 @@ If we want to 'cut' the distribution axis, we use `flex-wrap: wrap`;
 }
 ````
 
-![exemple](_readme-img/08-exemple.png)
+![exemple](_readme-img/08-exemple.PNG)
 
 `flex-wrap: wrap-reverse`: the last line will be displayed in first position.
 
-![exemple](_readme-img/09-exemple.png)
+![exemple](_readme-img/09-exemple.PNG)
 
 ### align-items
 
@@ -229,7 +229,7 @@ To choose the order to display items  (integer).
 }
 ````
 
-![exemple](_readme-img/10-exemple.png)
+![exemple](_readme-img/10-exemple.PNG)
 
 ### flex-grow
 
@@ -251,6 +251,6 @@ Value are integers.
 }
 ````
 
-![exemple](_readme-img/11-exemple.png)
+![exemple](_readme-img/11-exemple.PNG)
 
 ### flex-basis
