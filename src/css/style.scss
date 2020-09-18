@@ -1,0 +1,18 @@
+/* Code here */
+
+.container{
+  display: flex;
+}
+
+.container{
+  background-color: whitesmoke;
+}
+
+.item:nth-child(1){
+  flex-grow: 1;
+}
+
+.item:nth-child(2){
+  flex-grow: 2;
+}
+
