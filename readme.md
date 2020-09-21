@@ -1,7 +1,3 @@
-
-
-
-
 # Flexbox Layout Module
 
 September 2020
@@ -9,6 +5,8 @@ September 2020
 \> 🔨 Flexbox. From Undemy '[Flexbox CSS - Le guide complet par la pratique](https://www.udemy.com/course/guide-complet-flexbox/)'
 
 \* * *
+
+See demo on [Github page](https://raigyo.github.io/css-flexbox-guide/)
 
 ![exemple](_readme-img/logo.jpg)
 
@@ -63,10 +61,10 @@ If you don't use css postprocessor, you maybe will have to add prefixes with som
 
 ````CSS
 .container{
-    display: -webkit-box; 
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
-    display: -webkit-flex; 
+    display: -webkit-flex;
     display: flex;
 }
 ````
@@ -158,13 +156,13 @@ For instance, if we these settings:
 }
 ````
 
-Flex-end is not on the right but on the left. 
+Flex-end is not on the right but on the left.
 
 ![exemple](_readme-img/07-exemple.PNG)
 
 ### flex-wrap
 
-`flex-wrap: nowrap`: **default** elements are put insie and outside the container with a scrollbar... 
+`flex-wrap: nowrap`: **default** elements are put insie and outside the container with a scrollbar...
 
 If we want to 'cut' the distribution axis, we use `flex-wrap: wrap`;
 
@@ -263,7 +261,7 @@ Value are integers.
 
 It specifies the initial size of the flex item, before **any available space is distributed according to the flex factors**. When omitted from the flex shorthand, its specified value is the length zero. it takes same values than dimensions (ex: width).
 
-**Hierarchy:** 
+**Hierarchy:**
 
 min-width & max-width => flex-basis => width => content (inside box)
 
@@ -308,7 +306,7 @@ If we add padding etc, it will leave less space after items.  So it will impact 
 
 It specifies the “flex shrink factor”, which determines how much the flex item will shrink relative to the rest of the flex items in the flex container when **there isn’t enough space on the row**.
 
-Value by default: 1. 
+Value by default: 1.
 
 0 is the original size of the elements.
 
@@ -398,7 +396,7 @@ Is:
 .item{
   flex-grow: 0;
   flex-shrink: 1;
-  flex-basis: 20%;    
+  flex-basis: 20%;
 }
 ````
 
@@ -490,20 +488,24 @@ Exemple of use:
 
 - Clone
 - `npm install`
-- `parcel serve index.html`  
+- `parcel serve index.html`
 - Launch: `http://localhost:1234`
 
 ### Results
 
 #### Web
 
+![final](_readme-img/final-web.PNG)
+
 #### Tablet
 
+![final](_readme-img/final-tab.PNG)
+
 #### Phone
+
+![final](_readme-img/final-smart.PNG)
 
 ## Useful links
 
 - [Sticky Footer, Five Ways](https://css-tricks.com/couple-takes-sticky-footer/)
-- []()
-- []()
-- []()
+- [Flexbox Grid](http://flexboxgrid.com/)
