@@ -1,7 +1,7 @@
 {
-  "index.html": "https:/github.com/Raigyo/css-flexbox-guide/index.html",
-  "src/css/base.scss": "https:/github.com/Raigyo/css-flexbox-guide/base.56703ddf.css",
-  "src/css/style.scss": "https:/github.com/Raigyo/css-flexbox-guide/style.c2bd64c5.css",
-  "src/css/flexbox-grid.scss": "https:/github.com/Raigyo/css-flexbox-guide/flexbox-grid.3adae015.css",
-  "src/js/app.js": "https:/github.com/Raigyo/css-flexbox-guide/app.f3121e3d.js"
+  "index.html": "https:/raigyo.github.io/css-flexbox-guide/index.html",
+  "src/css/base.scss": "https:/raigyo.github.io/css-flexbox-guide/base.56703ddf.css",
+  "src/css/style.scss": "https:/raigyo.github.io/css-flexbox-guide/style.c2bd64c5.css",
+  "src/css/flexbox-grid.scss": "https:/raigyo.github.io/css-flexbox-guide/flexbox-grid.3adae015.css",
+  "src/js/app.js": "https:/raigyo.github.io/css-flexbox-guide/app.f3121e3d.js"
 }
