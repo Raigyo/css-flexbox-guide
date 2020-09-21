@@ -10,6 +10,37 @@ See demo on [Github page](https://raigyo.github.io/css-flexbox-guide/)
 
 ![exemple](_readme-img/logo.jpg)
 
+- [Flexbox Layout Module](#flexbox-layout-module)
+  * [Flex](#flex)
+  * [Terminology](#terminology)
+  * [Container](#container)
+    + [Prefixes](#prefixes)
+    + [flex-direction](#flex-direction)
+    + [display: flex / display: inline-flex](#display--flex---display--inline-flex)
+    + [justify-content](#justify-content)
+    + [flex-wrap](#flex-wrap)
+    + [align-items](#align-items)
+    + [flex-flow](#flex-flow)
+  * [Items](#items)
+    + [order](#order)
+    + [flex-grow](#flex-grow)
+    + [flex-basis](#flex-basis)
+    + [flex-shrink](#flex-shrink)
+    + [flex](#flex)
+    + [align-self](#align-self)
+  * [Center elements](#center-elements)
+  * [Media queries](#media-queries)
+  * [Exercices](#exercices)
+    + [How to test](#how-to-test)
+    + [Results](#results)
+      - [Web](#web)
+      - [Tablet](#tablet)
+      - [Phone](#phone)
+  * [Useful links](#useful-links)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Flex
 
 Before we used that kind of solutions to display elements:
