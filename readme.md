@@ -2,7 +2,7 @@
 
 September 2020
 
-\> 🔨 Flexbox. From Undemy '[Flexbox CSS - Le guide complet par la pratique](https://www.udemy.com/course/guide-complet-flexbox/)'
+\> 🔨 Flexbox. From Udemy '[Flexbox CSS - Le guide complet par la pratique](https://www.udemy.com/course/guide-complet-flexbox/)'
 
 \* * *
 
