@@ -495,15 +495,15 @@ Exemple of use:
 
 #### Web
 
-![final](_readme-img/final-web.PNG)
+![final](_readme-img/final-web.png)
 
 #### Tablet
 
-![final](_readme-img/final-tab.PNG)
+![final](_readme-img/final-tab.png)
 
 #### Phone
 
-![final](_readme-img/final-smart.PNG)
+![final](_readme-img/final-smart.png)
 
 ## Useful links
 

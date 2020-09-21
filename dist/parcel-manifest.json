@@ -1,8 +1,7 @@
 {
-  "index.html": "/index.html",
-  "src/css/base.scss": "/base.c9f774d6.css",
-  "src/css/style.scss": "/style.73cabe44.css",
-  "src/css/flexbox-grid.scss": "/flexbox-grid.ce6c3a01.css",
-  "src/js/app.js": "/app.77c12427.js",
-  "../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js": "/base.c9f774d6.js.map"
+  "index.html": "https:/raigyo.github.io/css-flexbox-guide/index.html",
+  "src/css/base.scss": "https:/raigyo.github.io/css-flexbox-guide/base.b671f8bd.css",
+  "src/css/style.scss": "https:/raigyo.github.io/css-flexbox-guide/style.87db3196.css",
+  "src/css/flexbox-grid.scss": "https:/raigyo.github.io/css-flexbox-guide/flexbox-grid.2cd5e0cd.css",
+  "src/js/app.js": "https:/raigyo.github.io/css-flexbox-guide/app.f3121e3d.js"
 }
