@@ -112,7 +112,7 @@ body, html{
 
 .sidebar{
   box-sizing: border-box;
-  padding: 20px;
+  padding: 40px;
   background-color: #f59e89;
 }
 
@@ -123,5 +123,17 @@ body, html{
 .footer{
   box-sizing: border-box;
   padding: 20px;
-  background-color: #95ead0;
+  background-color: #3168ff;
+}
+
+/* grid */
+
+.item{
+  color: aliceblue;
+  background-color: aquamarine;
+  border: 5px solid #275177;
+  border-radius: 8px;
+  padding: 20px 10px;
+  font-size: 1.5em;
+  text-align: center;
 }
