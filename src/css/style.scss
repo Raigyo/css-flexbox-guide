@@ -1,28 +1,98 @@
-/* Code here */
+/* Elements */
 
-
-#tablet {
-  display: none;
+.page-wrap {
+  display: flex;
+  flex-flow: row wrap;
 }
 
-#phone {
-  display: none;
+.header {
+  // flex-grow:0;
+  // flex-shrink:1;
+  order: 1;
+  flex-basis:100%;
 }
 
-@media screen and (max-width: 700px){
-  #computer{
+.navigation {
+  // flex-grow:0;
+  // flex-shrink:1;
+  order: 2;
+  flex-basis:100%;
+  .menu{
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 100%;
+  }
+}
+
+.sidebar {
+  order: 3;
+  flex-basis: 20%;
+}
+
+.content {
+  order: 4;
+  flex: 0 1 60%;
+  height: 100%;
+}
+
+.secondary {
+  order: 5;
+}
+
+.footer {
+  order: 6;
+  height: 100px;
+  // flex-grow:0;
+  // flex-shrink:1;
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination{
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 60%;
+}
+
+.pagination a{
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* media queries */
+
+@media screen and (max-width: 800px){
+  .header {
+    flex-direction: column
+  }
+  .menu{
+      justify-content: space-between;
+  }
+  .page-number{
     display: none;
   }
-  #tablet{
-    display: block;
+  .content {
+    flex-basis: 100%;
+  }
+  .sidebar {
+    flex-basis: 50%;
+    order: 5;
+  }
+  .footer {
+    order: 6;
   }
 }
 
-@media screen and (max-width: 400px){
-  #tablet{
-    display: none;
+@media screen and (max-width: 500px){
+  .menu{
+      flex-direction: column;
   }
-  #phone{
-    display: block;
+  .page-label{
+    flex-basis: 100%;
+  }
+  .sidebar {
+    flex-basis: 100%;
+    order: 5;
   }
 }

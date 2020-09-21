@@ -26,6 +26,10 @@ Or usual boxes models: display; inline, inline-block
 
 New model: `display: flex`. It's an easy way to divide and position children elements. It's possible to modify order: asc, desc etc...
 
+## Terminology
+
+![exemple](_readme-img/16-exemple.PNG)
+
 
 
 ## Container
@@ -474,3 +478,32 @@ Exemple of use:
 }
 ````
 
+## Exercices
+
+- Responsive menu
+- Pagination
+- Layout
+- Sticky footer
+- Responsive grid
+
+### How to test
+
+- Clone
+- `npm install`
+- `parcel serve index.html`  
+- Launch: `http://localhost:1234`
+
+### Results
+
+#### Web
+
+#### Tablet
+
+#### Phone
+
+## Useful links
+
+- [Sticky Footer, Five Ways](https://css-tricks.com/couple-takes-sticky-footer/)
+- []()
+- []()
+- []()
