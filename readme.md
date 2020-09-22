@@ -538,5 +538,6 @@ Exemple of use:
 
 ## Useful links
 
+- [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 - [Sticky Footer, Five Ways](https://css-tricks.com/couple-takes-sticky-footer/)
 - [Flexbox Grid](http://flexboxgrid.com/)
